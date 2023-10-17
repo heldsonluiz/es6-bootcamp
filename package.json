@@ -1,0 +1,16 @@
+{
+  "name": "es6-bootcamp",
+  "version": "1.0.0",
+  "description": "This is a project build in the Accelerated ES6 JavaScript Training course on UDEMY platform",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --plugins=@babel/plugin-transform-modules-amd"
+  },
+  "author": "Heldson L",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-modules-amd": "^7.7.5"
+  }
+}
